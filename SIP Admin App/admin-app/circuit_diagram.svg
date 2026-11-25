@@ -1,0 +1,400 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 920" font-family="Arial, sans-serif">
+
+  <rect width="1100" height="920" fill="#f0f0f0"/>
+  <rect x="10" y="10" width="1080" height="900" rx="10" fill="white" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="550" y="42" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">DDAS â€” Circuit Wiring Diagram</text>
+  <text x="550" y="62" text-anchor="middle" font-size="11" fill="#666">Exact pins matched to your ESP32 board photo</text>
+  <line x1="30" y1="72" x2="1070" y2="72" stroke="#ddd" stroke-width="1.5"/>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• ESP32 CENTER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <rect x="410" y="120" width="210" height="530" rx="8" fill="#1a1a1a" stroke="#000" stroke-width="2.5"/>
+  <rect x="420" y="130" width="190" height="510" rx="5" fill="#1e1e1e"/>
+
+  <!-- ESP32 module chip -->
+  <rect x="435" y="200" width="160" height="140" rx="5" fill="#111" stroke="#555" stroke-width="1.5"/>
+  <rect x="443" y="208" width="144" height="124" rx="3" fill="#0d0d0d"/>
+  <text x="515" y="265" text-anchor="middle" font-size="15" font-weight="bold" fill="#bbb">ESP-32</text>
+  <text x="515" y="283" text-anchor="middle" font-size="9" fill="#777">WiFi CE FCC</text>
+  <text x="515" y="297" text-anchor="middle" font-size="8" fill="#555">XXSR69</text>
+  <!-- antenna block -->
+  <rect x="462" y="188" width="106" height="14" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+  <!-- small components bottom -->
+  <rect x="430" y="370" width="13" height="9" rx="2" fill="#555" stroke="#777" stroke-width="1"/>
+  <rect x="450" y="370" width="13" height="9" rx="2" fill="#555" stroke="#777" stroke-width="1"/>
+  <rect x="470" y="370" width="13" height="9" rx="2" fill="#555" stroke="#777" stroke-width="1"/>
+  <rect x="490" y="370" width="13" height="9" rx="2" fill="#555" stroke="#777" stroke-width="1"/>
+  <!-- USB -->
+  <rect x="478" y="622" width="74" height="22" rx="4" fill="#666" stroke="#444" stroke-width="1.5"/>
+  <rect x="486" y="626" width="58" height="14" rx="2" fill="#444"/>
+  <text x="515" y="638" text-anchor="middle" font-size="9" fill="#ccc">Micro USB</text>
+  <text x="515" y="668" text-anchor="middle" font-size="11" font-weight="bold" fill="#aaa">ESP32 DevKit V1</text>
+
+  <!-- â•â•â• LEFT PINS (from your photo topâ†’bottom) â•â•â• -->
+  <!-- EN -->
+  <rect x="398" y="128" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="137" text-anchor="end" font-size="8" fill="#555">EN</text>
+  <!-- G36/VP -->
+  <rect x="398" y="144" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="153" text-anchor="end" font-size="8" fill="#555">G36</text>
+  <!-- G39/VN -->
+  <rect x="398" y="160" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="169" text-anchor="end" font-size="8" fill="#555">G39</text>
+  <!-- G34 -->
+  <rect x="398" y="176" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="185" text-anchor="end" font-size="8" fill="#555">G34</text>
+  <!-- G35 -->
+  <rect x="398" y="192" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="201" text-anchor="end" font-size="8" fill="#555">G35</text>
+  <!-- G32 -->
+  <rect x="398" y="208" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="217" text-anchor="end" font-size="8" fill="#555">G32</text>
+  <!-- G33 -->
+  <rect x="398" y="224" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="233" text-anchor="end" font-size="8" fill="#555">G33</text>
+  <!-- G25 -->
+  <rect x="398" y="240" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="249" text-anchor="end" font-size="8" fill="#555">G25</text>
+  <!-- G26 -->
+  <rect x="398" y="256" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="265" text-anchor="end" font-size="8" fill="#555">G26</text>
+  <!-- G27 -->
+  <rect x="398" y="272" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="281" text-anchor="end" font-size="8" fill="#555">G27</text>
+  <!-- G14 -->
+  <rect x="398" y="288" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="297" text-anchor="end" font-size="8" fill="#555">G14</text>
+  <!-- G12 -->
+  <rect x="398" y="304" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="313" text-anchor="end" font-size="8" fill="#555">G12</text>
+  <!-- GND -->
+  <rect x="398" y="320" width="14" height="11" rx="2" fill="#f0c040" stroke="#333" stroke-width="2"/>
+  <text x="394" y="329" text-anchor="end" font-size="8.5" font-weight="bold" fill="#333">GND</text>
+  <!-- G13 -->
+  <rect x="398" y="336" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="345" text-anchor="end" font-size="8" fill="#555">G13</text>
+  <!-- G9 -->
+  <rect x="398" y="352" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="361" text-anchor="end" font-size="8" fill="#555">G9</text>
+  <!-- G10 -->
+  <rect x="398" y="368" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="377" text-anchor="end" font-size="8" fill="#555">G10</text>
+  <!-- G11 -->
+  <rect x="398" y="384" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="394" y="393" text-anchor="end" font-size="8" fill="#555">G11</text>
+  <!-- SDA? left side G21 not on right -->
+
+  <!-- â•â•â• RIGHT PINS â€” EXACT from your photo â•â•â• -->
+  <!-- Row topâ†’bottom from photo right side: GND,G23,G22,TX0,G21,RX0,G19,G18,G5,G17,G16,G4,G0,G2,G15,3V3,GND,VIN -->
+
+  <!-- GND top -->
+  <rect x="618" y="128" width="14" height="11" rx="2" fill="#f0c040" stroke="#333" stroke-width="2"/>
+  <text x="636" y="137" font-size="8.5" font-weight="bold" fill="#333">GND</text>
+
+  <!-- G23 -->
+  <rect x="618" y="144" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="153" font-size="8" fill="#555">G23</text>
+
+  <!-- G22 = SCL HIGHLIGHTED -->
+  <rect x="618" y="160" width="14" height="11" rx="2" fill="#2980b9" stroke="#1a5c8a" stroke-width="2"/>
+  <text x="636" y="169" font-size="9" font-weight="bold" fill="#2980b9">G22  â—„  SCL</text>
+
+  <!-- TX0 -->
+  <rect x="618" y="176" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="185" font-size="8" fill="#555">TX0</text>
+
+  <!-- G21 = SDA HIGHLIGHTED -->
+  <rect x="618" y="192" width="14" height="11" rx="2" fill="#27ae60" stroke="#1a7a46" stroke-width="2"/>
+  <text x="636" y="201" font-size="9" font-weight="bold" fill="#27ae60">G21  â—„  SDA</text>
+
+  <!-- RX0 -->
+  <rect x="618" y="208" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="217" font-size="8" fill="#555">RX0</text>
+
+  <!-- G19 -->
+  <rect x="618" y="224" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="233" font-size="8" fill="#555">G19</text>
+
+  <!-- G18 -->
+  <rect x="618" y="240" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="249" font-size="8" fill="#555">G18</text>
+
+  <!-- G5 = BUZZER HIGHLIGHTED -->
+  <rect x="618" y="256" width="14" height="11" rx="2" fill="#9b59b6" stroke="#6c3483" stroke-width="2"/>
+  <text x="636" y="265" font-size="9" font-weight="bold" fill="#9b59b6">G5   â—„  Buzzer+</text>
+
+  <!-- G17 -->
+  <rect x="618" y="272" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="281" font-size="8" fill="#555">G17</text>
+
+  <!-- G16 -->
+  <rect x="618" y="288" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="297" font-size="8" fill="#555">G16</text>
+
+  <!-- G4 = LED HIGHLIGHTED -->
+  <rect x="618" y="304" width="14" height="11" rx="2" fill="#f39c12" stroke="#c87d00" stroke-width="2"/>
+  <text x="636" y="313" font-size="9" font-weight="bold" fill="#e67e00">G4   â—„  LED(via 220Î©)</text>
+
+  <!-- G0 -->
+  <rect x="618" y="320" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="329" font-size="8" fill="#555">G0</text>
+
+  <!-- G2 -->
+  <rect x="618" y="336" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="345" font-size="8" fill="#555">G2</text>
+
+  <!-- G15 -->
+  <rect x="618" y="352" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="361" font-size="8" fill="#555">G15</text>
+
+  <!-- 3V3 = VCC HIGHLIGHTED -->
+  <rect x="618" y="368" width="14" height="11" rx="2" fill="#e63946" stroke="#a01020" stroke-width="2"/>
+  <text x="636" y="377" font-size="9" font-weight="bold" fill="#e63946">3V3  â—„  VCC</text>
+
+  <!-- GND bottom -->
+  <rect x="618" y="384" width="14" height="11" rx="2" fill="#f0c040" stroke="#333" stroke-width="2"/>
+  <text x="636" y="393" font-size="8.5" font-weight="bold" fill="#333">GND</text>
+
+  <!-- VIN -->
+  <rect x="618" y="400" width="14" height="11" rx="2" fill="#f0c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="636" y="409" font-size="8" fill="#555">VIN</text>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• MPU6050 TOP LEFT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <rect x="30" y="110" width="260" height="180" rx="8" fill="#1a4fa0" stroke="#0d3070" stroke-width="2.5"/>
+  <rect x="40" y="120" width="240" height="160" rx="5" fill="#1e5ab5"/>
+  <circle cx="52" cy="132" r="5" fill="#0d3070"/>
+  <circle cx="268" cy="132" r="5" fill="#0d3070"/>
+  <circle cx="52" cy="282" r="5" fill="#0d3070"/>
+  <circle cx="268" cy="282" r="5" fill="#0d3070"/>
+  <!-- chip -->
+  <rect x="85" y="140" width="140" height="100" rx="4" fill="#111" stroke="#555" stroke-width="1.5"/>
+  <rect x="93" y="148" width="124" height="84" rx="2" fill="#0d0d0d"/>
+  <circle cx="97" cy="152" r="3" fill="#555"/>
+  <text x="155" y="190" text-anchor="middle" font-size="12" font-weight="bold" fill="#ccc">MPU-6050</text>
+  <text x="155" y="206" text-anchor="middle" font-size="8" fill="#777">InvenSense</text>
+  <text x="155" y="220" text-anchor="middle" font-size="7" fill="#555">6-Axis MEMS Accel+Gyro</text>
+  <rect x="48" y="148" width="20" height="12" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+  <rect x="48" y="168" width="20" height="12" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+
+  <!-- PIN HEADER 8 pins -->
+  <rect x="38" y="282" width="244" height="28" rx="3" fill="#111" stroke="#444" stroke-width="1.5"/>
+  <!-- VCC -->
+  <rect x="44" y="287" width="24" height="16" rx="2" fill="#c0392b" stroke="#922b21" stroke-width="1.5"/>
+  <rect x="53" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- GND -->
+  <rect x="72" y="287" width="24" height="16" rx="2" fill="#444" stroke="#888" stroke-width="1"/>
+  <rect x="81" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- SCL -->
+  <rect x="100" y="287" width="24" height="16" rx="2" fill="#2980b9" stroke="#1a5c8a" stroke-width="2"/>
+  <rect x="109" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- SDA -->
+  <rect x="128" y="287" width="24" height="16" rx="2" fill="#27ae60" stroke="#1a7a46" stroke-width="2"/>
+  <rect x="137" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- XDA -->
+  <rect x="156" y="287" width="24" height="16" rx="2" fill="#444" stroke="#888" stroke-width="1"/>
+  <rect x="165" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- XCL -->
+  <rect x="184" y="287" width="24" height="16" rx="2" fill="#444" stroke="#888" stroke-width="1"/>
+  <rect x="193" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- ADO -->
+  <rect x="212" y="287" width="24" height="16" rx="2" fill="#444" stroke="#888" stroke-width="1"/>
+  <rect x="221" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- INT -->
+  <rect x="240" y="287" width="24" height="16" rx="2" fill="#444" stroke="#888" stroke-width="1"/>
+  <rect x="249" y="303" width="6" height="16" rx="1" fill="#ccc"/>
+  <!-- pin labels -->
+  <text x="56" y="332" text-anchor="middle" font-size="9" font-weight="bold" fill="#e63946">VCC</text>
+  <text x="84" y="332" text-anchor="middle" font-size="9" font-weight="bold" fill="#333">GND</text>
+  <text x="112" y="332" text-anchor="middle" font-size="9" font-weight="bold" fill="#2980b9">SCL</text>
+  <text x="140" y="332" text-anchor="middle" font-size="9" font-weight="bold" fill="#27ae60">SDA</text>
+  <text x="168" y="332" text-anchor="middle" font-size="9" fill="#888">XDA</text>
+  <text x="196" y="332" text-anchor="middle" font-size="9" fill="#888">XCL</text>
+  <text x="224" y="332" text-anchor="middle" font-size="9" fill="#888">ADO</text>
+  <text x="252" y="332" text-anchor="middle" font-size="9" fill="#888">INT</text>
+
+  <text x="160" y="103" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a4fa0">â‘  MPU6050 (GY-521)</text>
+
+  <!-- MPU CALLOUT -->
+  <rect x="30" y="345" width="260" height="128" rx="8" fill="#e8f4fd" stroke="#2980b9" stroke-width="2"/>
+  <polygon points="100,343 120,330 140,343" fill="#e8f4fd" stroke="#2980b9" stroke-width="2"/>
+  <text x="160" y="366" text-anchor="middle" font-size="10" font-weight="bold" fill="#1a4fa0">ðŸ“Œ WHERE TO CONNECT</text>
+  <line x1="40" y1="372" x2="280" y2="372" stroke="#2980b9" stroke-width="1"/>
+  <text x="42" y="390" font-size="10" fill="#e63946">â— VCC   â†’  ESP32 right side  3V3</text>
+  <text x="42" y="408" font-size="10" fill="#333">â— GND  â†’  ESP32 right side  GND</text>
+  <text x="42" y="426" font-size="10" fill="#2980b9">â— SCL    â†’  ESP32 right side  G22</text>
+  <text x="42" y="444" font-size="10" fill="#27ae60">â— SDA   â†’  ESP32 right side  G21</text>
+  <text x="42" y="460" font-size="9" fill="#888">Leave XDA, XCL, ADO, INT unconnected</text>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• BUZZER TOP RIGHT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!-- buzzer board -->
+  <rect x="860" y="110" width="155" height="170" rx="8" fill="#2a2a2a" stroke="#111" stroke-width="2.5"/>
+  <!-- cylinder body -->
+  <ellipse cx="937" cy="165" rx="55" ry="14" fill="#111" stroke="#555" stroke-width="1.5"/>
+  <rect x="882" y="165" width="110" height="70" fill="#111"/>
+  <ellipse cx="937" cy="235" rx="55" ry="14" fill="#1a1a1a" stroke="#444" stroke-width="1.5"/>
+  <ellipse cx="937" cy="235" rx="38" ry="9" fill="#222"/>
+  <ellipse cx="937" cy="235" rx="18" ry="6" fill="#555"/>
+  <ellipse cx="937" cy="235" rx="6" ry="3" fill="#888"/>
+  <!-- + - on top -->
+  <text x="898" y="157" font-size="14" font-weight="bold" fill="#e63946">+</text>
+  <text x="956" y="157" font-size="14" fill="#aaa">-</text>
+  <!-- sound waves -->
+  <path d="M 996 165 Q 1010 188 996 211" fill="none" stroke="#888" stroke-width="2"/>
+  <path d="M 1006 158 Q 1024 188 1006 218" fill="none" stroke="#888" stroke-width="1.5" opacity="0.6"/>
+  <!-- legs -->
+  <line x1="912" y1="247" x2="912" y2="278" stroke="#ccc" stroke-width="3.5"/>
+  <line x1="962" y1="247" x2="962" y2="278" stroke="#ccc" stroke-width="3.5"/>
+  <rect x="898" y="275" width="28" height="9" rx="2" fill="#777"/>
+  <rect x="948" y="275" width="28" height="9" rx="2" fill="#777"/>
+  <!-- labels -->
+  <text x="912" y="297" text-anchor="middle" font-size="11" font-weight="bold" fill="#e63946">+  VCC</text>
+  <text x="962" y="297" text-anchor="middle" font-size="11" fill="#aaa">-  GND</text>
+  <text x="937" y="103" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">â‘¡ Active Buzzer</text>
+
+  <!-- BUZZER CALLOUT -->
+  <rect x="830" y="315" width="245" height="120" rx="8" fill="#fdf0ff" stroke="#9b59b6" stroke-width="2"/>
+  <polygon points="892,313 912,300 932,313" fill="#fdf0ff" stroke="#9b59b6" stroke-width="2"/>
+  <text x="952" y="336" text-anchor="middle" font-size="10" font-weight="bold" fill="#6c3483">ðŸ“Œ WHERE TO CONNECT</text>
+  <line x1="840" y1="342" x2="1065" y2="342" stroke="#9b59b6" stroke-width="1"/>
+  <text x="842" y="360" font-size="10" fill="#9b59b6">â— + VCC  â†’  ESP32 right side  G5</text>
+  <text x="842" y="378" font-size="10" fill="#333">â— -  GND  â†’  ESP32 right side  GND</text>
+  <rect x="840" y="390" width="245" height="36" rx="4" fill="#2a1a1a"/>
+  <text x="962" y="405" text-anchor="middle" font-size="9" font-weight="bold" fill="#f39c12">âš  Buzzer has a + mark on its base.</text>
+  <text x="962" y="420" text-anchor="middle" font-size="9" fill="#aaa">The pin under + is VCC. Other pin is GND.</text>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• LED BOTTOM LEFT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!-- LED body -->
+  <ellipse cx="160" cy="620" rx="32" ry="38" fill="#ff3333" stroke="#cc0000" stroke-width="2.5"/>
+  <rect x="128" y="645" width="64" height="9" rx="2" fill="#cc0000"/>
+  <ellipse cx="146" cy="602" rx="12" ry="8" fill="#ff9999" opacity="0.5"/>
+  <!-- legs -->
+  <line x1="145" y1="654" x2="145" y2="710" stroke="#bbb" stroke-width="4"/>
+  <line x1="175" y1="654" x2="175" y2="720" stroke="#bbb" stroke-width="4"/>
+  <!-- short leg mark -->
+  <text x="105" y="712" font-size="9" fill="#888">SHORT leg</text>
+  <text x="183" y="722" font-size="9" fill="#888">LONG leg</text>
+  <!-- arrows pointing to legs -->
+  <line x1="140" y1="706" x2="125" y2="706" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="180" y1="716" x2="198" y2="716" stroke="#888" stroke-width="1.5"/>
+  <!-- - + labels big -->
+  <text x="145" y="736" text-anchor="middle" font-size="22" font-weight="bold" fill="#555">â€”</text>
+  <text x="175" y="736" text-anchor="middle" font-size="22" font-weight="bold" fill="#e63946">+</text>
+  <text x="145" y="752" text-anchor="middle" font-size="10" fill="#555">Cathode</text>
+  <text x="175" y="752" text-anchor="middle" font-size="10" font-weight="bold" fill="#e63946">Anode</text>
+  <!-- light rays -->
+  <line x1="196" y1="598" x2="214" y2="584" stroke="#ff9900" stroke-width="2.5" opacity="0.8"/>
+  <line x1="198" y1="616" x2="219" y2="609" stroke="#ff9900" stroke-width="2.5" opacity="0.8"/>
+  <text x="160" y="578" text-anchor="middle" font-size="13" font-weight="bold" fill="#cc0000">â‘¢ LED 5mm</text>
+
+  <!-- LED CALLOUT -->
+  <rect x="30" y="768" width="320" height="122" rx="8" fill="#fff8e1" stroke="#f39c12" stroke-width="2"/>
+  <polygon points="145,766 165,753 185,766" fill="#fff8e1" stroke="#f39c12" stroke-width="2"/>
+  <text x="190" y="788" text-anchor="middle" font-size="10" font-weight="bold" fill="#7d4e00">ðŸ“Œ WHERE TO CONNECT</text>
+  <line x1="40" y1="794" x2="340" y2="794" stroke="#f39c12" stroke-width="1"/>
+  <text x="42" y="812" font-size="10" fill="#f39c12">â— LONG leg (+)   â†’  220Î©  â†’  ESP32 G4</text>
+  <text x="42" y="830" font-size="10" fill="#333">â— SHORT leg (-)   â†’  ESP32 GND  (any GND)</text>
+  <rect x="40" y="840" width="300" height="40" rx="4" fill="#1a0000"/>
+  <text x="190" y="856" text-anchor="middle" font-size="9" font-weight="bold" fill="#ff4444">âš  LONG leg = + (Anode)</text>
+  <text x="190" y="872" text-anchor="middle" font-size="9" fill="#aaa">SHORT leg = - (Cathode). Never skip 220Î©!</text>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• 220Î© RESISTOR â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <text x="560" y="718" text-anchor="middle" font-size="13" font-weight="bold" fill="#7d4e00">â‘£ 220Î© Resistor</text>
+  <line x1="450" y1="738" x2="482" y2="738" stroke="#999" stroke-width="2.5"/>
+  <rect x="482" y="726" width="104" height="26" rx="13" fill="#d4a020" stroke="#b8880a" stroke-width="2"/>
+  <line x1="504" y1="726" x2="504" y2="752" stroke="#e63946" stroke-width="5"/>
+  <line x1="520" y1="726" x2="520" y2="752" stroke="#e63946" stroke-width="5"/>
+  <line x1="536" y1="726" x2="536" y2="752" stroke="#6b3a2a" stroke-width="5"/>
+  <line x1="562" y1="726" x2="562" y2="752" stroke="#d4a020" stroke-width="3"/>
+  <line x1="586" y1="738" x2="618" y2="738" stroke="#999" stroke-width="2.5"/>
+  <text x="504" y="720" text-anchor="middle" font-size="7.5" fill="#e63946">Red</text>
+  <text x="520" y="720" text-anchor="middle" font-size="7.5" fill="#e63946">Red</text>
+  <text x="536" y="720" text-anchor="middle" font-size="7.5" fill="#7d4e00">Brn</text>
+  <text x="562" y="720" text-anchor="middle" font-size="7.5" fill="#b8880a">Gold</text>
+
+  <!-- RESISTOR CALLOUT -->
+  <rect x="380" y="768" width="310" height="122" rx="8" fill="#f5f5f5" stroke="#7d4e00" stroke-width="2"/>
+  <polygon points="495,766 515,753 535,766" fill="#f5f5f5" stroke="#7d4e00" stroke-width="2"/>
+  <text x="535" y="788" text-anchor="middle" font-size="10" font-weight="bold" fill="#7d4e00">ðŸ“Œ WHERE TO CONNECT</text>
+  <line x1="390" y1="794" x2="680" y2="794" stroke="#7d4e00" stroke-width="1"/>
+  <text x="392" y="812" font-size="10" fill="#333">â— One end   â†’  LED  LONG(+) leg</text>
+  <text x="392" y="830" font-size="10" fill="#333">â— Other end  â†’  ESP32  G4</text>
+  <text x="392" y="848" font-size="9" fill="#888">Direction doesn't matter â€” works both ways.</text>
+  <text x="392" y="864" font-size="9" fill="#888">Identify by bands:  Red Â· Red Â· Brown Â· Gold</text>
+  <text x="392" y="880" font-size="9" fill="#7d4e00" font-weight="bold">Place on breadboard between G4 wire &amp; LED+</text>
+
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• WIRES â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+
+  <!-- RED 3V3: MPU VCC â†’ ESP32 right 3V3 -->
+  <polyline points="56,319 56,95 850,95 850,373 632,373"
+            fill="none" stroke="#e63946" stroke-width="2.5"/>
+  <rect x="350" y="84" width="80" height="14" rx="3" fill="#fff0f0"/>
+  <text x="390" y="94" text-anchor="middle" font-size="8" font-weight="bold" fill="#e63946">3V3 â†’ 3V3</text>
+
+  <!-- BLACK GND: MPU GND â†’ ESP32 right GND -->
+  <polyline points="84,319 84,88 858,88 858,389 632,389"
+            fill="none" stroke="#222" stroke-width="2.5"/>
+
+  <!-- BLUE SCL: MPU SCL â†’ ESP32 right G22 -->
+  <polyline points="112,319 112,80 866,80 866,165 632,165"
+            fill="none" stroke="#2980b9" stroke-width="2.5"/>
+  <rect x="350" y="70" width="80" height="14" rx="3" fill="#eaf4ff"/>
+  <text x="390" y="80" text-anchor="middle" font-size="8" font-weight="bold" fill="#2980b9">SCL â†’ G22</text>
+
+  <!-- GREEN SDA: MPU SDA â†’ ESP32 right G21 -->
+  <polyline points="140,319 140,73 874,73 874,197 632,197"
+            fill="none" stroke="#27ae60" stroke-width="2.5"/>
+  <rect x="350" y="57" width="80" height="14" rx="3" fill="#eafff0"/>
+  <text x="390" y="67" text-anchor="middle" font-size="8" font-weight="bold" fill="#27ae60">SDA â†’ G21</text>
+
+  <!-- ORANGE G4: ESP32 G4 â†’ resistor â†’ LED+ -->
+  <polyline points="632,309 820,309 820,738 618,738"
+            fill="none" stroke="#f39c12" stroke-width="2.5"/>
+  <polyline points="482,738 450,738 175,738 175,720"
+            fill="none" stroke="#f39c12" stroke-width="2.5"/>
+  <rect x="720" y="298" width="110" height="14" rx="3" fill="#fff8e1"/>
+  <text x="775" y="308" text-anchor="middle" font-size="8" font-weight="bold" fill="#f39c12">G4 â†’ 220Î© â†’ LED+</text>
+
+  <!-- BLACK GND: LED- â†’ ESP32 GND -->
+  <polyline points="145,710 145,760 398,760 398,325 398,325"
+            fill="none" stroke="#222" stroke-width="2.5"/>
+  <rect x="220" y="754" width="80" height="14" rx="3" fill="#f5f5f5"/>
+  <text x="260" y="764" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">LED- â†’ GND</text>
+
+  <!-- PURPLE G5: ESP32 G5 â†’ Buzzer VCC+ -->
+  <polyline points="632,261 840,261 840,100 912,100 912,275"
+            fill="none" stroke="#9b59b6" stroke-width="2.5"/>
+  <rect x="710" y="250" width="120" height="14" rx="3" fill="#f9f0ff"/>
+  <text x="770" y="260" text-anchor="middle" font-size="8" font-weight="bold" fill="#9b59b6">G5 â†’ Buzzer VCC+</text>
+
+  <!-- BLACK GND: Buzzer GND â†’ ESP32 GND -->
+  <polyline points="962,275 962,307 848,307 848,130 632,130"
+            fill="none" stroke="#222" stroke-width="2.5"/>
+
+  <!-- â•â•â• WIRE LEGEND â•â•â• -->
+  <rect x="700" y="470" width="270" height="210" rx="8" fill="#fafafa" stroke="#ccc" stroke-width="1.5"/>
+  <text x="835" y="492" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Wire Color Legend</text>
+  <line x1="710" y1="498" x2="960" y2="498" stroke="#ddd" stroke-width="1"/>
+  <line x1="718" y1="518" x2="762" y2="518" stroke="#e63946" stroke-width="3.5"/>
+  <text x="772" y="522" font-size="10" fill="#333">Red â€” 3.3V  (VCC)</text>
+  <line x1="718" y1="540" x2="762" y2="540" stroke="#222" stroke-width="3.5"/>
+  <text x="772" y="544" font-size="10" fill="#333">Black â€” Ground  (GND)</text>
+  <line x1="718" y1="562" x2="762" y2="562" stroke="#2980b9" stroke-width="3.5"/>
+  <text x="772" y="566" font-size="10" fill="#333">Blue â€” SCL  â†’ G22</text>
+  <line x1="718" y1="584" x2="762" y2="584" stroke="#27ae60" stroke-width="3.5"/>
+  <text x="772" y="588" font-size="10" fill="#333">Green â€” SDA  â†’ G21</text>
+  <line x1="718" y1="606" x2="762" y2="606" stroke="#f39c12" stroke-width="3.5"/>
+  <text x="772" y="610" font-size="10" fill="#333">Orange â€” G4  â†’ 220Î© â†’ LED</text>
+  <line x1="718" y1="628" x2="762" y2="628" stroke="#9b59b6" stroke-width="3.5"/>
+  <text x="772" y="632" font-size="10" fill="#333">Purple â€” G5  â†’ Buzzer VCC+</text>
+  <rect x="710" y="645" width="252" height="28" rx="4" fill="#e8f8e8" stroke="#27ae60" stroke-width="1"/>
+  <text x="836" y="659" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a5c2a">âš¡ Power ESP32 via Micro USB</text>
+  <text x="836" y="671" text-anchor="middle" font-size="8" fill="#555">Laptop USB port or 5V phone charger</text>
+
+  <!-- bottom bar -->
+  <line x1="30" y1="895" x2="1070" y2="895" stroke="#ddd" stroke-width="1"/>
+  <text x="550" y="882" text-anchor="middle" font-size="10" fill="#888">
+    â‘  MPU6050 GY-521  Â·  â‘¡ Active Buzzer 5V  Â·  â‘¢ LED 5mm Red  Â·  â‘£ 220Î© Resistor  Â·  ESP32 DevKit V1
+  </text>
+
+</svg>
