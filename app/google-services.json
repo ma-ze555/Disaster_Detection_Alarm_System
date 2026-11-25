@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "315095036207",
+    "firebase_url": "https://disaster-detection-alarm-default-rtdb.firebaseio.com",
+    "project_id": "disaster-detection-alarm",
+    "storage_bucket": "disaster-detection-alarm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315095036207:android:05dcdff842589b0c8fb1da",
+        "android_client_info": {
+          "package_name": "com.ddas.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffmpxLICd94jFgksElfd0SA0CbbE1Oyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
